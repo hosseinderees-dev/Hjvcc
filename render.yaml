@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: vpn-server
+    runtime: docker
+    plan: free
+    healthCheckPath: /
